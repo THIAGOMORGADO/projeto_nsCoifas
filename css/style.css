@@ -8240,7 +8240,8 @@ h1, h2, h3, h4, h5, h6 {
 .fh5co-bg-section {
   color: #fff;
   background-color: #e9e9e9;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   background-position: top center;
   margin-top: 0px;
   z-index: 10;
@@ -8949,7 +8950,7 @@ img.fh5co-align-right {
 }
 @media screen and (max-width: 480px) {
   img.fh5co-align-right {
-    width: 100%;
+    width: 50%;
     margin: 0 0 .5em 0;
   }
 }
@@ -8959,7 +8960,7 @@ img.fh5co-align-left {
 }
 @media screen and (max-width: 480px) {
   img.fh5co-align-left {
-    width: 100%;
+    width: 50%;
     margin: 0 0 .5em 0;
   }
 }
@@ -8974,8 +8975,14 @@ a > img.fh5co-align-right {
   margin: 0 0 .5em 1em;
 }
 @media screen and (max-width: 480px) {
+  .logo {
+    width: 60%;
+    height: 400%;
+    
+    margin-top: -20px;
+  }
   a > img.fh5co-align-right {
-    width: 100%;
+    width: 50%;
     margin: 0 0 .5em 0;
   }
 }
@@ -8985,7 +8992,7 @@ a > img.fh5co-align-left {
 }
 @media screen and (max-width: 480px) {
   a > img.fh5co-align-left {
-    width: 100%;
+    width: 50%;
     margin: 0 0 .5em 0;
   }
 }
