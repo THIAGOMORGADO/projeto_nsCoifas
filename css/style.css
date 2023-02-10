@@ -6,6 +6,23 @@
   font-weight: normal;
   font-style: normal;
 }
+/*  Atualização de estilos */
+#fh5co-subscribe {
+  background-color: #ff9421 !important;
+}
+#fh5co-subscribe .form-group {
+  background-color: transparent !important;
+}
+#fh5co-subscribe .form-group input{
+  color: #fff;
+  border:  #233969 solid !important;
+} 
+#fh5co-subscribe .form-group input::placeholder {
+  color: #233969;
+}
+
+
+
 /*!
  * Bootstrap v3.3.5 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
@@ -65,6 +82,7 @@ a {
 a:active,
 a:hover {
   outline: 0;
+  
 }
 
 abbr[title] {
@@ -3241,6 +3259,7 @@ input[type="search"] {
 }
 .form-group {
   margin-bottom: 30px;
+  background-color: none !important;
 }
 
 .radio,
@@ -7479,8 +7498,8 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 0;
   width: 290px;
   padding: 40px 30px;
-  background: #fff;
-  color: #878c93;
+  background: #233969;
+  color: #ff9431 !important;
 }
 #fh5co-offcanvass .fh5co-lead {
   font-size: 12px;
@@ -7501,17 +7520,17 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-offcanvass ul li a {
   display: block;
   padding: 10px 4px;
-  border-bottom: 1px solid #eaeaea;
+  border-bottom: 1px solid #ff9431;
   font-size: 18px;
-  color: #444;
+  color: #daa520;
 }
 #fh5co-offcanvass ul li a:hover, #fh5co-offcanvass ul li a:focus, #fh5co-offcanvass ul li a:active {
   outline: none;
   text-decoration: none;
-  color: #A41843;
+  color: #ff9431 !important;
 }
 #fh5co-offcanvass ul li.active a {
-  color: #A41843 !important;
+  color: #daa520 !important;
 }
 #fh5co-offcanvass.fh5co-awake {
   -webkit-transform: translateX(0px);
@@ -7530,7 +7549,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", arial, sans-serif;
   z-index: 99;
   float: left;
-  color: #444;
+  color: #ff3125;
 }
 #fh5co-offcanvass .fh5co-offcanvass-close i {
   font-size: 20px;
@@ -7662,7 +7681,7 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: .05em;
 }
 #fh5co-hero .fh5co-intro .btn {
-  background: #A41843;
+  background: #ff9431;
 }
 #fh5co-hero .fh5co-intro .btn i {
   font-size: 20px;
@@ -7883,7 +7902,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 20px;
 }
 #fh5co-features-3 .fh5co-icon i {
-  color: #A41843;
+  color: #fff;
 }
 
 #fh5co-features-2 .fh5co-text-wrap {
@@ -7915,7 +7934,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 20px;
 }
 #fh5co-features-2 .fh5co-icon i {
-  color: #A41843;
+ 
 }
 @media screen and (max-width: 992px) {
   #fh5co-features-2 .fh5co-image {
@@ -8640,7 +8659,7 @@ pre {
 
 .fh5co-social-icons > a {
   margin-right: 10px;
-  color: #A41843;
+  color: #ff9431;;
 }
 .fh5co-social-icons > a:hover, .fh5co-social-icons > a:focus, .fh5co-social-icons > a:active {
   text-decoration: none;
@@ -8651,9 +8670,10 @@ pre {
   height: 25px;
   cursor: pointer;
   text-decoration: none;
+  
 }
 .fh5co-nav-toggle.active i::before, .fh5co-nav-toggle.active i::after {
-  background: #fff;
+  background:#ff9431;;
 }
 .fh5co-nav-toggle:hover, .fh5co-nav-toggle:focus, .fh5co-nav-toggle:active {
   outline: none;
@@ -8671,14 +8691,14 @@ pre {
   font: bold 14px/.4 Helvetica;
   text-transform: uppercase;
   text-indent: -55px;
-  background: #fff;
+  background: #233969;
   transition: all .2s ease-out;
 }
 .fh5co-nav-toggle i::before, .fh5co-nav-toggle i::after {
   content: '';
   width: 25px;
   height: 3px;
-  background: #fff;
+  background:#233969;
   position: absolute;
   left: 0;
   -webkit-transition: 0.2s;
@@ -8750,22 +8770,23 @@ pre {
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
-  *display: inline;
+  display: inline;
   position: absolute;
   left: 0;
   top: 0;
   z-index: 99;
   width: 100px;
   margin-top: 12px;
-  color: #fff;
+  color: #233969 !important;
   margin-left: -70px;
   font-family: "Montserrat", arial, sans-serif;
   letter-spacing: 2px;
   font-size: 15px;
   text-transform: uppercase;
+  font-weight: bold;
 }
 .scrolled .fh5co-nav-toggle > span {
-  color: #A41843;
+  color: #233969 !important;;
 }
 
 .owl-carousel .owl-controls,
