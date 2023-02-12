@@ -67,6 +67,19 @@
       width: 100% !important;
     
   }
+  footer {
+    background-color: #233969 !important;
+    color: #ff9431 !important; 
+  }
+  .footer-info h3 {
+    color: #ff9431 !important;
+  }
+  .footer-info ul, li, a {
+    color: #ff9431 !important;
+  }
+  .footer-info ul, li, a:hover {
+    color: #a35001 !important;
+  }
 }
 /*  Atualização de estilos */
 
