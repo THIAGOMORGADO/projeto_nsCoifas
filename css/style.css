@@ -54,6 +54,10 @@
   align-items: center !important;
   justify-content: center !important;
 }
+.icon-base {
+  color: #ff9431 !important;
+}
+
 /*  Atualização de estilos */
 
 /*!
@@ -8095,7 +8099,7 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   margin: 0 auto;
   position: relative;
-  border: 2px solid #A41843;
+  border: 2px solid #ff9431;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -8108,7 +8112,7 @@ h1, h2, h3, h4, h5, h6 {
   display: table-cell;
   vertical-align: middle;
   font-size: 50px;
-  color: #A41843;
+  color: #ff9431;
 }
 .fh5co-feature .fh5co-feature-lead, .fh5co-feature .fh5co-figure-lead, .fh5co-figure .fh5co-feature-lead, .fh5co-figure .fh5co-figure-lead {
   font-size: 12px;
@@ -8137,10 +8141,11 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 .fh5co-feature:hover .fh5co-feature-icon, .fh5co-feature.active .fh5co-feature-icon, .fh5co-figure:hover .fh5co-feature-icon, .fh5co-figure.active .fh5co-feature-icon {
-  background: #A41843;
+  background: #233969;
+  
 }
 .fh5co-feature:hover .fh5co-feature-icon i, .fh5co-feature.active .fh5co-feature-icon i, .fh5co-figure:hover .fh5co-feature-icon i, .fh5co-figure.active .fh5co-feature-icon i {
-  color: #fff;
+  color: #ff9431;
 }
 
 .fh5co-figure {
