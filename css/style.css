@@ -15,13 +15,46 @@
 }
 #fh5co-subscribe .form-group input{
   color: #fff;
-  border:  #233969 solid !important;
-} 
+  border:  #233969 solid !important
+}
+#fh5co-subscribe .form-group .submit {
+  margin-top: -5px
+}
 #fh5co-subscribe .form-group input::placeholder {
   color: #233969;
 }
+.button-whts {
+  width: 60%;
+  height: 60px;
+  justify-content: space-evenly;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  background-color: #ff9431;
+  border-radius: 100px;
+  color: #233969;
+  font-weight: bold;
+}
+.button-whts:hover {
+  background-color: #233969;
+  color: #ff9431;
+  text-decoration: none;
+}
+.button-whts i {
+ font-weight: bold;
+}
 
-
+.action-interesse {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-area {
+  display: flex !important; 
+  align-items: center !important;
+  justify-content: center !important;
+}
+/*  Atualização de estilos */
 
 /*!
  * Bootstrap v3.3.5 (http://getbootstrap.com)
@@ -1820,6 +1853,7 @@ dd {
   clear: both;
 }
 @media (min-width: 768px) {
+  
   .dl-horizontal dt {
     float: left;
     width: 160px;
