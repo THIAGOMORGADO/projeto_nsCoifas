@@ -57,7 +57,17 @@
 .icon-base {
   color: #ff9431 !important;
 }
-
+@media only screen and (max-width: 576px){
+  .home-page {
+    margin-top: 30%;
+    }
+  }
+  @media only screen and (min-width: 320px) {
+    .button-whts {
+      width: 100% !important;
+    
+  }
+}
 /*  Atualização de estilos */
 
 /*!
