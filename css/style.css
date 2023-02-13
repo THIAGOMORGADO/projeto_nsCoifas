@@ -23,21 +23,29 @@
 #fh5co-subscribe .form-group input::placeholder {
   color: #233969;
 }
+.span_title{
+  color: #233969;
+}
+.span_subtitle {
+ margin-left: -10px !important;
+  color: #ff9431;
+}
+
 .button-whts {
-  width: 60%;
+  width: 100% !important;
   height: 60px;
   justify-content: space-evenly;
   align-items: center;
   display: flex;
   flex-direction: row;
-  background-color: #ff9431;
+  background-color: #ff9431 !important;
   border-radius: 100px;
-  color: #233969;
+  color: #233969 !important;
   font-weight: bold;
 }
 .button-whts:hover {
-  background-color: #233969;
-  color: #ff9431;
+  background-color: #233969 !important;
+  color: #ff9431 !important;
   text-decoration: none;
 }
 .button-whts i {
@@ -53,18 +61,21 @@
   display: flex !important; 
   align-items: center !important;
   justify-content: center !important;
+ 
 }
 .icon-base {
   color: #ff9431 !important;
 }
+
 @media only screen and (max-width: 576px){
   .home-page {
     margin-top: 30%;
     }
   }
-  @media only screen and (min-width: 320px) {
+  @media only screen and (min-width: 400px) {
     .button-whts {
-      width: 100% !important;
+      width: 60% !important;
+    } 
     
   }
   footer {
@@ -78,7 +89,7 @@
     color: #ff9431 !important;
   }
   .footer-info ul, li, a:hover {
-    color: #a35001 !important;
+    color: #ff9431!important;
   }
 }
 /*  Atualização de estilos */
@@ -7430,22 +7441,11 @@ body {
   background: #fff;
   height: 100%;
   position: relative;
+  border: none;
 }
 body.fh5co-overflow-x {
   overflow-x: hidden;
 }
-
-a {
-  color: #A41843;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
-}
-a:hover, a:active, a:focus {
-  color: #A41843;
-  outline: none;
-}
-
 p {
   margin-bottom: 1.5em;
 }
@@ -7583,7 +7583,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 4px;
   border-bottom: 1px solid #ff9431;
   font-size: 18px;
-  color: #daa520;
+  color: #ff9431;
 }
 #fh5co-offcanvass ul li a:hover, #fh5co-offcanvass ul li a:focus, #fh5co-offcanvass ul li a:active {
   outline: none;
@@ -7591,7 +7591,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #ff9431 !important;
 }
 #fh5co-offcanvass ul li.active a {
-  color: #daa520 !important;
+  color: #ff9431 !important;
 }
 #fh5co-offcanvass.fh5co-awake {
   -webkit-transform: translateX(0px);
@@ -7610,14 +7610,14 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", arial, sans-serif;
   z-index: 99;
   float: left;
-  color: #ff3125;
+  color: #ff9431;
 }
 #fh5co-offcanvass .fh5co-offcanvass-close i {
   font-size: 20px;
   margin-top: 3px;
   float: right;
   margin-left: 10px;
-  color: red;
+  color:#ff9431;
 }
 #fh5co-offcanvass .fh5co-offcanvass-close:hover, #fh5co-offcanvass .fh5co-offcanvass-close:focus, #fh5co-offcanvass .fh5co-offcanvass-close:active {
   outline: none;
@@ -7633,6 +7633,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
   padding: 0;
   margin: 40px 0 0 0;
+  border: none;
 }
 #fh5co-offcanvass .fh5co-logo a {
   color: #000;
